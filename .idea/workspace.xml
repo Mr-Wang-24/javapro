@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2696e1f8-fbea-4993-812b-d364bd1c8920" name="Default Changelist" comment="test3">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/META-INF/javapro.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuede/test2/Action.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuede/test2/MyBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuede/test2/MyBookMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuede/test2/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/test1/ColaEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/test1/HourlyEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/test1/SalariedEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/test1/SalesEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/test1/Test$payWage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/test1/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/Array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/LeapYear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/MyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/MyTest0210.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/MyTest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/MyTest2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/One_Hundred.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/PrimeNumber_Sum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/Search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/SelectSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/nueudu/test/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuede/test2/MyBookMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neuede/test2/MyBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuede/test2/MyBook.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\王晓栋\IdeaProjects\javapro\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XQTxJSG0UJQGFiiVSEwvKwM2z7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.MyBookMain">
+    <configuration name="AddTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuede.test2.AddTest" />
+      <module name="javapro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neuede.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuede.test2.MyBookMain" />
+      <module name="javapro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neuede.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuede.test2.Test" />
+      <module name="javapro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neuede.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuede.test2.demo" />
+      <module name="javapro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neuede.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.test1.demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neuedu.test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyBookMain" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.demo (1)" />
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.AddTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2696e1f8-fbea-4993-812b-d364bd1c8920" name="Default Changelist" comment="" />
+      <created>1580977563180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580977563180</updated>
+      <workItem from="1580977568807" duration="4512000" />
+      <workItem from="1581304144928" duration="65000" />
+      <workItem from="1581316151456" duration="21000" />
+      <workItem from="1581316195789" duration="14256000" />
+      <workItem from="1581416712734" duration="3993000" />
+    </task>
+    <task id="LOCAL-00001" summary="test1">
+      <created>1580977827968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580977827968</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test2">
+      <created>1580989339773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580989339773</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test2">
+      <created>1581317636067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581317636067</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test3">
+      <created>1581317991170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581317991170</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test3">
+      <created>1581339727051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581339727051</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test2" />
+    <MESSAGE value="test1" />
+    <MESSAGE value="test3" />
+    <option name="LAST_COMMIT_MESSAGE" value="test3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1581420627937">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1581420627937" />
+    <state x="653" y="182" key="#demo" timestamp="1581333324630">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="653" y="182" key="#demo/0.0.1920.1050@0.0.1920.1050" timestamp="1581333324630" />
+    <state x="560" y="116" key="CommitChangelistDialog2" timestamp="1581423053169">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="560" y="116" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1581423053169" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1581316170932">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1581316170932" />
+    <state x="835" y="416" width="273" height="218" key="Github.ShareDialog" timestamp="1580977678687">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="835" y="416" width="273" height="218" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580977678687" />
+    <state x="756" y="226" key="Github.UntrackedFilesDialog" timestamp="1580977775720">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="756" y="226" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580977775720" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1581423053235">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1581423053235" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1581423053235">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1581423053235" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1581423053235">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1581423053235" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1581423053235">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1581423053235" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1581423065364">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1581423065364" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1581416723442">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581416723442" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1581420781112">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1581420781112" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1581417695925">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1581417695925" />
+  </component>
+</project>

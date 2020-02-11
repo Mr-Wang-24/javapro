@@ -58,4 +58,15 @@ public class MyBook {
     public void setBookIsbn(String bookIsbn) {
         this.bookIsbn = bookIsbn;
     }
+
+    @Override
+    public String toString() {
+        return "MyBook{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", press='" + press + '\'' +
+                ", author='" + author + '\'' +
+                ", bookIsbn='" + bookIsbn + '\'' +
+                '}';
+    }
 }
