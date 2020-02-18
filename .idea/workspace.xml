@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2696e1f8-fbea-4993-812b-d364bd1c8920" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuede/test2/Test1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuede/test2/WolferKill.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/neuede/test2/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/neuede/test2/WolferKill.java" afterDir="false" />
+    <list default="true" id="2696e1f8-fbea-4993-812b-d364bd1c8920" name="Default Changelist" comment="test3">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/dao/IstudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/service/IstudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/test/MyTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/test/MyTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/test/MyTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/test/MyTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/test/MyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/test/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/web/StudentWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javapro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javapro.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +57,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/qq下载文件/mysql-connector-java-5.1.6.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Test1">
-    <configuration name="Copy1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.neuede.test2.Copy1" />
+  <component name="RunManager" selected="Application.MyTest2">
+    <configuration name="MyTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.test.MyTest2" />
       <module name="javapro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.neuede.test2.*" />
+          <option name="PATTERN" value="com.neuedu.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest2" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.WolferKill" />
         <item itemvalue="Application.MyThread" />
         <item itemvalue="Application.StudentKeepTest" />
-        <item itemvalue="Application.Copy1" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +167,8 @@
       <workItem from="1581416712734" duration="4198000" />
       <workItem from="1581469408284" duration="14298000" />
       <workItem from="1581559025497" duration="7158000" />
-      <workItem from="1581595731768" duration="1525000" />
+      <workItem from="1581595731768" duration="1580000" />
+      <workItem from="1582003939953" duration="3004000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1580977827968</created>
@@ -205,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581510647121</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test3">
+      <created>1581597621986</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581597621986</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,14 +248,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="653" y="182" key="#demo/0.0.1920.1050@0.0.1920.1050" timestamp="1581333324630" />
-    <state x="560" y="116" key="CommitChangelistDialog2" timestamp="1581510644236">
+    <state x="560" y="116" key="CommitChangelistDialog2" timestamp="1582032123549">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="560" y="116" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1581510644236" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1581316170932">
+    <state x="560" y="116" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1582032123549" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1582029236493">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1581316170932" />
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1582029236493" />
     <state x="835" y="416" width="273" height="218" key="Github.ShareDialog" timestamp="1580977678687">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -243,22 +264,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="756" y="226" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580977775720" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1581592494112">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1582032052016">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1581592494112" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1581592494111">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582032052016" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1582032052016">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1581592494111" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1581592494111">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582032052016" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1582032052016">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1581592494111" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1581592494111">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582032052016" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1582032052016">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1581592494111" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582032052016" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1581592494112">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -275,14 +296,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1581592494112" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1581510663429">
+    <state x="440" y="100" key="SettingsEditor" timestamp="1582029242015">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1581510663429" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1581596663856">
+    <state x="440" y="100" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1582029242015" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1582032131308">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581596663856" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1582032131308" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1582028678462">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582028678462" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1581420781112">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
