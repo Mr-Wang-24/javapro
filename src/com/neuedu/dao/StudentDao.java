@@ -1,6 +1,7 @@
 package com.neuedu.dao;
 
 import com.neuedu.pojo.Student;
+import com.neuedu.util.JdbcUtil;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -65,109 +66,19 @@ public class StudentDao implements IstudentDao {
 
     @Override
     public int add(Student student) {
-        int i = 0;
-        Connection con = null;
-        PreparedStatement pstmt = null;
-        try {
-            // 加载驱动
-            Class.forName("com.mysql.jdbc.Driver");
-            // 创建连接
-            con = DriverManager.getConnection(url,username,password);
-            // 创建命令行 写sql语句
-            pstmt = con.prepareStatement("insert into student(name,age,gender) values(?,?,?)");
-            // 设置 问好的值
-            pstmt.setString(1,student.getName());
-            pstmt.setInt(2,student.getAge());
-            pstmt.setInt(3,student.getGender());
-            // 执行sql语句
-            // 如果是查询  调用 executeQuery方法 返回一个 ResultSet 结果集
-            i = pstmt.executeUpdate();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }finally {
-            try {
-                if(pstmt != null)
-                    pstmt.close();
-                if(con != null)
-                    con.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-        return i;
+        return JdbcUtil.executeUpdate("insert into student(name,age,gender) values(?,?,?)",student.getName(),student.getAge(),student.getGender());
     }
 
     @Override
     public int update(Student student) {
-        int i = 0;
-        Connection con = null;
-        PreparedStatement pstmt = null;
-        try {
-            // 加载驱动
-            Class.forName("com.mysql.jdbc.Driver");
-            // 创建连接
-            con = DriverManager.getConnection(url,username,password);
-            // 创建命令行 写sql语句
-            pstmt = con.prepareStatement("update student set name=?,age=?,gender=? where id=?");
-            // 设置 问好的值
-            pstmt.setString(1,student.getName());
-            pstmt.setInt(2,student.getAge());
-            pstmt.setInt(3,student.getGender());
-            pstmt.setInt(4,student.getId());
-            // 执行sql语句
-            // 如果是查询  调用 executeQuery方法 返回一个 ResultSet 结果集
-            i = pstmt.executeUpdate();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }finally {
-            try {
-                if(pstmt != null)
-                    pstmt.close();
-                if(con != null)
-                    con.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-        return i;
+        return  JdbcUtil.executeUpdate("update student set name=?,age=?,gender=? where id=?",student.getName(),student.getAge(),student.getGender(),student.getId());
+
     }
 
     @Override
     public int del(int id) {
-        int i = 0;
-        Connection con = null;
-        PreparedStatement pstmt = null;
-        try {
-            // 加载驱动
-            Class.forName("com.mysql.jdbc.Driver");
-            // 创建连接
-            con = DriverManager.getConnection(url,username,password);
-            // 创建命令行 写sql语句
-            pstmt = con.prepareStatement("delete from student where id=?");
-            // 设置 问好的值
-            pstmt.setInt(1,id);
-            // 执行sql语句
-            // 如果是查询  调用 executeQuery方法 返回一个 ResultSet 结果集
-            i = pstmt.executeUpdate();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }finally {
-            try {
-                if(pstmt != null)
-                    pstmt.close();
-                if(con != null)
-                    con.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-        return i;
+        return JdbcUtil.executeUpdate("delete from student where id=?",id);
+
     }
 
     @Override
